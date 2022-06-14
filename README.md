@@ -21,7 +21,7 @@ The users should be able to:
 
 ### Link
 
-- URL: [Expenses chart component](https://your-solution-url.com)
+- URL: [Expenses chart component](https://expense-chart-component.vercel.app/)
 
 ### Screenshots
 
