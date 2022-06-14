@@ -1,0 +1,5 @@
+.balance {
+    background-color: hsl(var(--clr-soft-red));
+    color: hsl(var(--clr-very-pale-orange));
+    margin-bottom: 1.25rem;
+}

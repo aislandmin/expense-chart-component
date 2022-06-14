@@ -1,0 +1,45 @@
+:root {
+  /* Primary Colors */
+  --clr-soft-red: 10, 79%, 65%;
+  --clr-cyan: 186, 34%, 60%;
+
+  /* Neutral Colors */
+  --clr-dark-brown: 25, 47%, 15%;
+  --clr-medium-brown: 28, 10%, 53%;
+  --clr-cream: 27, 66%, 92%;
+  --clr-very-pale-orange: 33, 100%, 98%;
+
+  /* Body Copy */
+  --font-size: 18px;
+
+  /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+  --ff-ss: 'DM Sans', sans-serif;
+}
+
+body {
+  margin: 0, auto;
+  font-size: var(--font-size);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: hsl(var(--clr-cream));
+  font-size: var(--font-size);
+  font-family: var(--ff-ss);
+}
+
+.container {
+  padding: 0.75rem 2rem;
+  border-radius: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+} 
+
+/* Mobile */
+/* @media (min-width: 375px) {} */
+
+/* Desktop */
+/* @media (min-width: 1440px) {} */
